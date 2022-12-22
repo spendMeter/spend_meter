@@ -9,9 +9,9 @@ static  String getAuthenticationToken()
     return token;
   }
 
- static void setAuthentiocationToken(String token){
-    common.jWToken=token;
-  }
+ // static void setAuthentiocationToken(String token){
+ //    common.jWToken=token;
+ //  }
 
  static String getDeviceID()
   {
@@ -19,9 +19,9 @@ static  String getAuthenticationToken()
     return deviceId;
   }
 
- static void setDeviceId(String id){
-    common.deviceId=id;
-  }
+ // static void setDeviceId(String id){
+ //    common.deviceId=id;
+ //  }
 
  static List<String> getPinningKeys()
   {
@@ -30,9 +30,9 @@ static  String getAuthenticationToken()
   return common.sslKeyList;
   }
 
-static void setPiningKeys(List<String> list){
-
-  common.sslKeyList=list;
-}
+// static void setPiningKeys(List<String> list){
+//
+//   common.sslKeyList=list;
+// }
 
 }
