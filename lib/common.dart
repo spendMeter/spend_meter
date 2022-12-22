@@ -23,10 +23,40 @@ String jWToken="D856E2BF189CFDCA637B91B2F206E6671F21D116FE07B5D7ADCCE591CA82D9CC
 ///
 /// device id
 ///
-String deviceId="123456789abcdefghijklmnopqrstuvw";
+String deviceId="elFlRz_lT-eljP0rAgNltv:APA91bENy4geJIGR6uWf9tO5VjXc2SpRZokcdxqd"
+    "FB4GoURNdaViSZG_eaH0sBAFTPbzCUGsU2F6Iuwy3hCpD8eKuxIqbXhOfwKYtj6t8rMMe-8Sr9g3KLckP3OteDHTR8gNH3sdOqHV";
+
+
+///
+///ssl pining key1
+///
+String FromFilePem1="-----BEGIN PUBLIC KEY-----"
+"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlktHVLQ3mjUQUryF0FM1"
+"7WojXLMKvgXuQOroETZXpTzPwkmCONFxxqNC3t/kf2UOG29O6eMvg7/d+8n6hKXZ"
+"F2G8eUieKCgjOcS9Lz0CV+8gQLBkYhHDBnXplAr2eiBpmQQjsjypnOXN+hTXpy98"
+"l9KJ69+fF9Ze4DpN4AaHg1+Te7XStAeLPGxCsTmaqnX1MsdLVhvjSffPOOL2ee1n"
+"2ttpQl8Oo4N1p3I6eyNr+B1WdiOJJV7oB3VTBekTVjGQ1ZImt3Jynhy5UHh9rBbX"
+"wT6BXBFiSyrFfkpqrSrtgXOlNp8IGZIDJEXn/ixC9XE7cgfpOKoDYqYPgwDoWzaS"
+"jQIDAQAB"
+"-----END PUBLIC KEY-----";
+
+///
+///ssl pining key2
+///
+String FromFilePem2="-----BEGIN PUBLIC KEY-----"
+    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlktHVLQ3mjUQUryF0FM1"
+    "7WojXLMKvgXuQOroETZXpTzPwkmCONFxxqNC3t/kf2UOG29O6eMvg7/d+8n6hKXZ"
+    "F2G8eUieKCgjOcS9Lz0CV+8gQLBkYhHDBnXplAr2eiBpmQQjsjypnOXN+hTXpy98"
+    "l9KJ69+fF9Ze4DpN4AaHg1+Te7XStAeLPGxCsTmaqnX1MsdLVhvjSffPOOL2ee1n"
+    "2ttpQl8Oo4N1p3I6eyNr+B1WdiOJJV7oB3VTBekTVjGQ1ZImt3Jynhy5UHh9rBbX"
+    "wT6BXBFiSyrFfkpqrSrtgXOlNp8IGZIDJEXn/ixC9XE7cgfpOKoDYqYPgwDoWzaS"
+    "ABCDEF"
+    "-----END PUBLIC KEY-----";
+
 
 
 ///
 /// ssl list
 ///
 List<String> sslKeyList=[];
+

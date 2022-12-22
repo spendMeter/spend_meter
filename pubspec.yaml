@@ -1,7 +1,8 @@
 name: spendmeter_pkg
-description: A new Flutter package project.
+description: Spend Meter.
 version: 0.0.1
-homepage:
+homepage: https://github.com/spendMeter/spend_meter
+author: Sarasi
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

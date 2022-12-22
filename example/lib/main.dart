@@ -34,11 +34,16 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
  String _deviceId="" ;
+ String _token="" ;
+ List<String> keylist=[];
+
 
   void _getData() {
     setState(() {
 
-      _deviceId= SpendMeterPkg.getAuthenticationToken();
+      _deviceId= SpendMeterPkg.getDeviceID();
+      _token=SpendMeterPkg.getAuthenticationToken();
+       keylist.addAll(SpendMeterPkg.getPinningKeys());
     });
   }
 
@@ -59,10 +64,33 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               children: [
                 const Text(
-                  'You rDevice Id is:',
+                  ' Device Id:',
                 ),
                 Text(
                   _deviceId,
+                  style: Theme.of(context).textTheme.subtitle1,
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                const Text(
+                  ' Token:',
+                ),
+                Text(
+                  _token,
+                  style: Theme.of(context).textTheme.subtitle1,
+                ),
+              ],
+            ),
+
+            Row(
+              children: [
+                const Text(
+                  'Key list length:',
+                ),
+                Text(
+                  keylist.length.toString(),
                   style: Theme.of(context).textTheme.subtitle1,
                 ),
               ],
